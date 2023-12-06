@@ -12,7 +12,6 @@ html {
 }
 
 .main-content .banner {
-  width: 100%;
   background-image: url("/resources/images/banner-landingpage.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +48,7 @@ html {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   z-index: 10;
@@ -142,8 +141,8 @@ header .desktop .button {
 }
 
 @media screen and (max-width: 480px) {
-  html {
-    border: 3px solid red;
+  #sign-up-cta .center{
+    max-width: 100vw;
   }
 }
 
